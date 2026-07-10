@@ -10,10 +10,10 @@ img {
 
 }
 
-
+/* common style */
 .common-btn {
     background-color: #1D4ED8;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 500;
@@ -21,6 +21,14 @@ img {
     cursor: pointer;
     border: none;
 
+}
+.outline-btn{
+    background: white;
+    color:#1D4ED8 ;
+    border: 1px solid #1D4ED8;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 header {
@@ -106,6 +114,7 @@ ul li a {
     padding: 80px 0;
 
 }
+
 .speakers h2 {
     text-align: center;
     font-size: 48px;
@@ -114,31 +123,91 @@ ul li a {
 
 }
 
-.speaker-container{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:30px;
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 
 }
-.card{
-border:1px solid #ddd;
-border-radius:10px;
-overflow:hidden;
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
+
 .card h4 {
-    padding:10px;
+    padding: 10px;
     margin: 10px 0;
 }
+
 .card p {
     font-size: 12px;
     padding: 0 10px 10px;
-    
+
 }
+
 .category {
     color: #2563EB;
-    font-size:5px;
-    font-weight:600;
-    text-transform:uppercase;
-    letter-spacing:1px;
+    font-size: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* pricing styles */
+.pricing {
+    padding: 100px 0;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sub-title {
+    text-align: center;
+    margin: 15px 0 50px;
+    color: gray;
+}
+
+.price-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.price-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.price-card h3 {
+    font-size: 46px;
+    margin: 12px 0;
+    
+
+}
+.ccard hr {
+    margin:20px 0;
+}
+.price-card ul {
+    margin: 25px 0;
+    padding-left:20px;
+    display: block;
+    list-style: circle;
+    
+}
+.price-card li {
+    margin-bottom:12px;
+}
+.active {
+    background-color: #0D1B2A;
+    color:#FFFFFF;
+}
+.card-button {
+    width: 100%;
+    
 }
