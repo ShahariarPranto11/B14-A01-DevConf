@@ -22,9 +22,10 @@ img {
     border: none;
 
 }
-.outline-btn{
+
+.outline-btn {
     background: white;
-    color:#1D4ED8 ;
+    color: #1D4ED8;
     border: 1px solid #1D4ED8;
     padding: 12px 24px;
     border-radius: 8px;
@@ -182,32 +183,130 @@ ul li a {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
-    
+
 }
+
 .price-card h3 {
     font-size: 46px;
     margin: 12px 0;
-    
+
 
 }
+
 .ccard hr {
-    margin:20px 0;
+    margin: 20px 0;
 }
+
 .price-card ul {
     margin: 25px 0;
-    padding-left:20px;
+    padding-left: 20px;
     display: block;
     list-style: circle;
-    
+
 }
+
 .price-card li {
-    margin-bottom:12px;
+    margin-bottom: 12px;
 }
+
 .active {
     background-color: #0D1B2A;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
+
 .card-button {
     width: 100%;
-    
+
+}
+
+/* Placeholder Section */
+.faq-section {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 50px;
+}
+
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.faq-card {
+    background: #ffffff;
+    padding: 25px;
+    border: 4px solid #4769ad;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+}
+
+.faq-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.faq-card p {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+/* footer */
+.footer {
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    padding: 10px 0 10px;
+
+}
+
+.footer-logo {
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    width: 600px;
+    margin: 0 auto 30px;
+    text-align: left;
+    line-height: 1.6;
+
+}
+
+.footer-link {
+
+    gap: 30px;
+    margin-bottom: 20px;
+    color: #5c6787;
+}
+
+.footer-link a {
+    color: #162f75;
+    text-decoration: none;
+
+}
+
+.footer hr {
+    border: 1px solid #6b7280
+}
+
+.copyright {
+    text-align: center;
+
 }
